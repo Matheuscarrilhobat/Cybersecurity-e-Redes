@@ -16,7 +16,6 @@ def calcular_sha256(caminho_arquivo):
 # Arquivo que será monitorado
 arquivo_alvo = "arquivo_importante_do_sistema.txt"
 
-# Monitorar um arquivo local para detectar modificações não autorizadas
 diretorio_script = os.path.dirname(os.path.abspath(__file__))
 diretorio_monitoramento = os.path.join(diretorio_script, "fim")
 arquivo_alvo = os.path.join(
@@ -26,7 +25,7 @@ arquivo_alvo = os.path.join(
 
 print(f"Iniciando linha de base do FIM para {arquivo_alvo}...")
 
-# Criar o arquivo caso ele não exista (apenas para testes)
+# Cria o arquivo de teste caso ele não exista
 os.makedirs(diretorio_monitoramento, exist_ok=True)
 
 if not os.path.exists(arquivo_alvo):
@@ -41,14 +40,12 @@ try:
         hash_atual = calcular_sha256(arquivo_alvo)
 
         if hash_atual is None:
-            print("🚨 ALERTA: O arquivo monitorado foi excluído!")
+            print("ALERTA: O arquivo monitorado foi excluído!")
             break
 
         elif hash_atual != hash_base:
-            print("🚨 ALERTA: Modificação detectada no arquivo! Integridade comprometida.")
+            print("ALERTA: Modificação detectada no arquivo! Integridade comprometida.")
 
-            # Atualiza a linha de base para registrar o novo estado conhecido
-            # ou evitar alertas contínuos
             hash_base = hash_atual
 
         else:
