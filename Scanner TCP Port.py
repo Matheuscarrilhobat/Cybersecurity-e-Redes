@@ -13,8 +13,8 @@ for porta in portas_para_verificar:
 
     resultado = sock.connect_ex((alvo, porta))
     if resultado == 0:
-        print(f"🔓 Porta {porta}: ABERTA")
+        print(f"Porta {porta}: ABERTA")
     else:
-        print(f"🔒 Porta {porta}: Fechada/Filtrada")
+        print(f"Porta {porta}: Fechada/Filtrada")
 
     sock.close()
