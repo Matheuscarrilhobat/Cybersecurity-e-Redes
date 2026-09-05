@@ -5,3 +5,5 @@ Scanner TCP Port.py - Este programa realiza escaneia as portas TCP de uma rede e
 Cliente-Servidor Simples - Este programa simula uma interação cliente-servidor
 
 Browser - Um navegador web Simples
+
+Cifrasub - um encriptador de mensagens utilizando cifra de substituição
