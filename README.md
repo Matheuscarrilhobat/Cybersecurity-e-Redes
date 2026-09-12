@@ -7,3 +7,5 @@ Cliente-Servidor Simples - Este programa simula uma interação cliente-servidor
 Browser - Um navegador web Simples
 
 Cifrasub - um encriptador de mensagens utilizando cifra de substituição
+
+CifraXOR - um encriptador de mensagens utilizando cifra XOR
