@@ -11,3 +11,5 @@ Cifrasub - um encriptador de mensagens utilizando cifra de substituição
 CifraXOR - um encriptador de mensagens utilizando cifra XOR
 
 EncryptChar - um programa que simula uma chatroom entre 2 computadores para a troca de mensagens criptografadas via RSA
+
+DLT - um programa que e capaz de obter informações de sites na internet utilizando a biblioteca whois
