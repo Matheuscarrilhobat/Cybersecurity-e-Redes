@@ -17,3 +17,5 @@ DLT - um programa capaz de obter informações de sites na internet utilizando a
 webscrapingtest - um programa simples de teste para web scraping
 
 webscraping - um programa para realizar webscraping(alguns sites podem recusar a conexão)
+
+Bandwidth - um programa capaz de monitorar largura de banda utilizada por um computador
