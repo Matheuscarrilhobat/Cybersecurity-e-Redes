@@ -21,3 +21,5 @@ webscraping - um programa para realizar webscraping(alguns sites podem recusar a
 Bandwidth - um programa capaz de monitorar largura de banda utilizada por um computador
 
 Image readable - um programa capaz de tornar uma imagem mais legivel usando CV2 com threshholds binarios ou adaptativos
+
+facedetection - um programa capaz de detectar rostos atraves de um webcam
